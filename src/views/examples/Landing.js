@@ -81,8 +81,8 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        The tech evolution I am most excited for is the AI revolution.{" "}
+                        <span>I, for one, welcome our robot overlords.</span>
                       </h1>
                       <p className="lead text-white">
                         The design system comes with four pre-built pages to
@@ -144,18 +144,16 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
-                          </div>
+                          </div> */}
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            I made a Chocolate Pizza page once.
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            It was back in 201.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
@@ -173,25 +171,23 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
-                          </div>
+                          </div> */}
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Placeholder for 301
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A receptacle for my future failures.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="success" pill className="mr-1">
                               business
                             </Badge>
@@ -209,25 +205,23 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
-                          </div>
+                          </div> */}
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Placeholder for 401
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A painful pipedream.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -245,7 +239,7 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>

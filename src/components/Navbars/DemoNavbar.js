@@ -114,7 +114,7 @@ class DemoNavbar extends React.Component {
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Components</span>
                     </DropdownToggle>
-                    <DropdownMenu className="dropdown-menu-xl">
+                    {/* <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
@@ -171,26 +171,28 @@ class DemoNavbar extends React.Component {
                           </Media>
                         </Media>
                       </div>
-                    </DropdownMenu>
+                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
+                      <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
+                    {/* <DropdownItem to="/portfolio" tag={Link}> */}
+                      <DropdownItem to="/portfolio" tag={Link}>
+                        Portfolio
                       </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
+                      {/* <DropdownItem to="/" tag={Link}> */}
+                      <DropdownItem to="/" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
+                      {/* <DropdownItem to="/login-page" tag={Link}>
                         Login
                       </DropdownItem>
                       <DropdownItem to="/register-page" tag={Link}>
                         Register
-                      </DropdownItem>
+                      </DropdownItem> */}
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
@@ -198,17 +200,17 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="https://www.linkedin.com/in/anthony-turinski-7722721b7/"
                       id="tooltip333589074"
                       target="_blank"
                     >
-                      <i className="fa fa-facebook-square" />
+                      <i className="fa fa-linkedin" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
+                        Linkedin
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Facebook
+                      Find me on Linkedin
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -246,7 +248,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/Terransky"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -269,9 +271,9 @@ class DemoNavbar extends React.Component {
                       <span className="btn-inner--icon">
                         <i className="fa fa-cloud-download mr-2" />
                       </span>
-                      <span className="nav-link-inner--text ml-1">
+                      {/* <span className="nav-link-inner--text ml-1">
                         Download
-                      </span>
+                      </span> */}
                     </Button>
                   </NavItem>
                 </Nav>

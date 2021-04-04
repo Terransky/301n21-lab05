@@ -123,32 +123,32 @@ class Profile extends React.Component {
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
+                    <h5>Keep a sharp eye lest Humpty Dumpty have a great fall and scramble you below.</h5>
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Anthony Turinski{" "}
+                      <span className="font-weight-light">, 35</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Bellevue, Washington
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer in Training - Codefellows
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      University of Colorado at Boulder
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          A creature of incredible fragility, it's a wonder Anthony doesn't spontaneously shatter any given moment.
+                          He puts forth as much effort as he can muster but compared to the rest of his species, he seems to be lacking 
+                          the necessary fortitude to withstand even his feeble attempts at mediocrity. What can the future possibly hold 
+                          for such a derelict sub-human?
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
