@@ -151,7 +151,7 @@ class Landing extends React.Component {
                             I made a Chocolate Pizza page once.
                           </h6>
                           <p className="description mt-3">
-                            It was back in 201.
+                            It was back in 201. Good ol' 201.
                           </p>
                           {/* <div>
                             <Badge color="primary" pill className="mr-1">
